@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FAU</title>
+</head>
+<style>
+    
+</style>
+<script src="js/script.js"></script>
+<body>
+    <h1 class="title">Laboratorio Semana 2</h1>
+    Pablo Reyes 20004748
+    <div class="container">
+        <div class="ejercicio">
+            <h1>Ejercicio #1</h1>
+            
+            <input type="text" id="idNumber1" placeholder="Numero a elevar:">
+            <input type="text" id="idNumber2" placeholder="Potencia a elevar:">
+            <button onclick="elevateNumber()">Calcular potencia</button>
+            <h3 id="result1">Resultado</h3>
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #2</h1>
+            <input type="text" id="celsiusField" placeholder="Temperatura en Grados Centigrados: ">
+            <button onclick="celsiusToFahrenheit()">Calcular Grados</button>
+            <h3 id="result2">Resultado</h3>
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #3</h1>
+            <input type="text" id="nameInput" placeholder="Nombre: ">
+            <button onclick="addName()">A�adir nombre a lista</button>
+            <input type="text" id="letterCountInput" placeholder="Cantidad de letras a filtrar: ">
+            <button onclick="filterNames()">Filtrar nombres</button>
+            <ul id="nameList"></ul>
+            <h3 id="result3">Resultado: <br> 
+            <ul id="filteredNameList"></ul>
+            </h3>
+
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #4</h1>
+            <input type="date" id="birthdate">
+            <button onclick="Age()">Calcular Edad </button>
+            <h3 id="result4">Resultado</h3>
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #5</h1>
+            <input id="words" type="text">
+            <button onclick="countWords()">Calcular Palabras </button>
+            <h3 id="result5">Resultado</h3>
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #6</h1>
+            <input type="text" id="numberInput" placeholder="Escriba numero: ">
+            <button onclick="addNumber()">Agregar Numeros</button>
+            <ul id="numberList"></ul>
+            <button onclick="average()">Calcular Promedio </button>
+            <h3 id="result6">Resultado</h3>
+        </div>
+        <div class="ejercicio">
+            <h1>Ejercicio #7</h1>
+            <input type="text" id="colorChange" placeholder="Ingrese color:">
+            <button onclick="changecolor()">Cambiar Color</button>
+            <div class="square">.</div>
+        </div>
+    </div>
+</body>
+</html>

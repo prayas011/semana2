@@ -1,0 +1,61 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 225, 255);
+    align-items: center;
+
+}
+.ejercicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-color: black;
+    border: 5px;
+    margin: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 40%;
+    transition: 0.5s;
+}
+.ejercicio input{
+    border: 1;
+    border-radius: 5px;
+    margin: 5px;
+}
+.ejercicio button{
+    background-color: black;
+    color: white;
+    transition: 0.5s; 
+    margin: 5px;
+}
+.ejercicio button:hover{
+    cursor: pointer;
+    background-color: rgb(81, 134, 0);
+    width: ;
+}
+
+.ejercicio:hover{
+    background-color: white;
+    width: 45%;
+}
+.title{
+    font-size: 72px;
+    align-self: center;
+}
+.square{
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border-radius: 3px;
+    border-color: black;
+    display: flex;
+    background-color: white;
+    border-style: solid;
+    transition: 1s;
+}
+.square:hover{
+    width: 50px;
+    height: 50px;
+}
